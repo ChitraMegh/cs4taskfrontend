@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+  
+}
+
+.card {
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  display: block;
+}
+
+.card img {
+   
+  width: 70%;
+  border-radius: 20px;
+  height: 400px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  flex: 44.33%;
+  align-items: center;
+}
+
+.card-body {
+  padding: 10px;
+
+}
+
+.card-title {
+  font-size: 18px;
+  margin: 0;
+}
+
+.card-text {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.card-icons {
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+  color: #333;
+  padding: 10px 0;
+}
+
+.me-auto {
+  margin-left: center;
+  color: blue;
+  
+}
+
+
+h2{
+  padding: 30px;
+  margin-top: 40px;
+  background-color: aqua;
+  text-align: center;
+  font-size: xx-small;
+  font-style: italic;
+}
+
+h3{
+  font-size: xx-small;
+  font-style: italic;
+}
+.nav{
+  background-color: aquamarine;
+}
